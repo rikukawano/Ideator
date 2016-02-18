@@ -27,6 +27,10 @@ class IdeasController < ApplicationController
 		redirect_to :back
 	end
 
+	def random
+		@idea = Idea.order("RANDOM()").first
+	end
+
 	private
 
 	def idea_params
