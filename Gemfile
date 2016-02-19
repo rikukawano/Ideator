@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
+# Pagination
+gem 'will_paginate', '~> 3.0.6'
 # Easy form maker
 gem 'simple_form'
-
 # Bootstrap for Sass
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
